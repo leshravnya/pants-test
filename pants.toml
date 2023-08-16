@@ -1,0 +1,13 @@
+[GLOBAL]
+    pants_version = "2.16.0"
+    backend_packages = [
+        "pants.backend.python",
+    ]
+[source]
+    root_patterns = [
+      'src',
+      'tests'
+    ]
+    marker_filenames = ["pyproject.toml"]
+[setup-py-generation]
+     generate_setup_default = false
