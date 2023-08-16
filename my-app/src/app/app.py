@@ -1,4 +1,4 @@
 
 
-def app(a, b):
+def foo(a, b):
     return a + b
