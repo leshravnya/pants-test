@@ -14,6 +14,6 @@ python_distribution(
         version="0.0.1"
     ),
     # Example of setuptools config, other build backends may have other config.
-    wheel_config_settings={"--global-option": ["--python-tag", "py38", "py39", "py310"]},
+    wheel_config_settings={"--global-option": ["--python-tag", "py38,py39,py310"]},
     generate_setup=True,
 )
